@@ -1,0 +1,96 @@
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box
+		}
+
+		body {
+			background-color: #ededed
+		}
+
+		#pagewrap {
+			background-image: url('bg.png');
+			background-repeat: no-repeat;
+			width: 45%;
+			margin: 0 auto;
+			padding: 175px 0 100px 0;
+			border: 1px solid gray;
+			position: relative;
+			z-index: 1;
+		}
+
+		#remaining-turns {
+			position: absolute;
+			top: 30px;
+			right: 10px;
+			color: navy;
+			font-family: monospace
+		}
+
+		#canvas {
+			text-align: center
+		}
+
+		#message {
+			margin: 20px;
+			color: #4a0099;
+			font-size: 20px;
+			font-family: monospace;
+			font-weight: bold;
+			text-transform: uppercase
+		}
+
+		label {
+			font-size: 20px;
+			font-family: tahoma
+		}
+
+		input[type="number"] {
+			width: 75px;
+			height: 50px;
+			padding: 10px;
+			font-size: 25px;
+			font-family: monospace;
+			background-color: #f3f3f3;
+			border: 1.2px solid gray
+		}
+
+		input[type="submit"] {
+			padding: 10px;
+			display: block;
+			margin: 20px auto;
+			font-size: 20px;
+			font-family: monospace;
+			box-shadow: 3px 3px 4px silver;
+		}
+
+		#reload {
+			visibility: hidden;
+			position: absolute;
+			right: 0px;
+			top: 60px;
+			background: silver;
+			z-index: -1;
+			transition: right 0.5s
+		}
+
+		button {
+			padding: 5px;
+			font-size: 15px;
+			font-family: cursive
+		}
+
+		#score {
+			font-family: monospace;
+			color: white;
+			width: 320px;
+			padding: 20px;
+			margin: 0 auto;
+			border-radius: 10px
+		}
+
+		tt {
+			position: absolute;
+			bottom: 10px;
+			left: 120px
+		}
